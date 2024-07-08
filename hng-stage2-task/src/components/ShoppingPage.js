@@ -73,13 +73,13 @@ function ShoppingPage() {
               </button>
             </div>
             <Link
-              href="/cartpage"
+              href="/cart-page"
               className="border text-center md:text-base text-xs rounded-2xl md:py-1 py-1.5 md:px-2 bg-[#AC702F] border-[#AC702F] text-white"
             >
               Add to Cart
             </Link>
             <Link
-              href="/checkoutpage"
+              href="/checkout"
               className="border md:text-base text-xs text-center border-[#AC702F] md:py-1 py-1.5 md:px-1 rounded-2xl"
             >
               Buy now
