@@ -1,11 +1,15 @@
-import Image from "next/image";
+import ShoppingCartSection from "@/components/ShoppingCartSection";
+import ShoppingMenu from "@/components/ShoppingMenu";
+import ShoppingPage from "@/components/ShoppingPage";
+
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
+    <main className="">
     
-
-  
+<ShoppingCartSection/>
+  <ShoppingMenu/>
+  <ShoppingPage/>
     </main>
   );
 }
