@@ -77,7 +77,7 @@ function Footer() {
         <div className="flex gap-5 items-center">
           <img src="/stripe.svg" alt="" />
           <img src="/apple.svg" alt="" />
-          <img src="/amazon.svg" alt="" />
+          <img src="/amzon.svg" alt="" />
         </div>
       </div>
 
@@ -85,11 +85,11 @@ function Footer() {
         <div className="md:flex md:flex-row flex gap-8 md:gap-0 flex-col justify-center md:justify-between items-center px-[3rem] py-[2rem]">
           <img src="/logo.svg" alt="" />
 
-          <div className="text-[#0F172A] md:flex gap-5 md:flex-row flex flex-col items-center">
-            <p>Terms of service</p>
-            <p>Privacy Policy</p>
-            <p>Contact us</p>
-          </div>
+          <ul className="text-[#0F172A] md:flex gap-5 md:flex-row flex flex-col items-center">
+            <li>Terms of service</li>
+            <li>Privacy Policy</li>
+            <li>Contact us</li>
+          </ul>
 
           <div className="flex gap-5">
             <img src="/facebook.svg" alt="" />

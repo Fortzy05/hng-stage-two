@@ -10,7 +10,7 @@ function ShoppingMenu() {
     };
   return (
     <div className="w-full flex flex-col gap-5 justify-center items-center md:px-[2rem] px-[1rem] py-[2rem] bg-[#f4f4f479] overflow-hidden">
-      <div className="flex justify-center items-center text-[16px] gap-5">
+      {/* <div className="flex justify-center items-center text-[16px] gap-5">
         <div className="flex items-center gap-1">
           <h1>Brands</h1>
           <img src="/down_arrow.svg" alt="arrow" />
@@ -24,7 +24,7 @@ function ShoppingMenu() {
           <h3>Categories</h3>
           <img src="/down_arrow.svg" alt="arrow" />
         </div>
-      </div>
+      </div> */}
 
       <h1 className="text-[#0F172A] text-[32px] font-semibold text-center">
         Explore beautiful Inspiration from our Watch Collection
